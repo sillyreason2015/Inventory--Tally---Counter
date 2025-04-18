@@ -26,21 +26,81 @@ button {
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #increment-btn {
     background: darkred;
 }
 
-#Subtract-btn{
-    background: blue
+#Subtract-btn {
+    background: blue;
 }
 
 #save-btn {
     background: darkgreen;
 }
 
-p{
+p {
     background-color: white;
+    padding: 5px;
+    margin: 10px auto;
+    width: fit-content;
+    border-radius: 5px;
 }
 
+/* === INVENTORY STYLES === */
+
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    margin: 5px;
+    padding: 10px;
+    width: 220px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button[type="submit"] {
+    background-color: #333;
+    width: 150px;
+    margin-top: 10px;
+}
+
+#inventory-list {
+    list-style: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+#inventory-list li {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#inventory-list button {
+    margin-left: 10px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    width: auto;
+}
+
+#inventory-list button:first-of-type {
+    background-color: #007bff;
+}
+
+#inventory-list button:last-of-type {
+    background-color: #dc3545;
+}

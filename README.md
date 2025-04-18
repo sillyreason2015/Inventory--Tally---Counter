@@ -1,35 +1,60 @@
-A simple, beginner-friendly inventory counting app built with HTML, CSS, and JavaScript. This project was originally developed during a Scrimba tutorial and has been extended with a **Subtract** button to also track items out of stock or sold.
+# 📦 Inventory Tally App
 
-![screenshot](./station.jpg)
+A simple, beginner-friendly inventory counting app built with **HTML, CSS, and JavaScript**. Originally developed during a Scrimba tutorial, this project has been extended with additional features like a **Subtract** button and full **Inventory Management** including add, edit, and delete functionality.
+
+🔗 **Live Demo**: [https://inventory-tally-counter.netlify.app/](https://inventory-tally-counter.netlify.app/)
+
+
+
+---
 
 ### ✨ Features
 
-- 📈 **Increment Button**: Increase item count as stock comes in.
-- 📉 **Subtract Button**: Decrease item count when items are removed, sold, or out of stock.
-- 🧮 **Save Count**: Save current tally and reset for new entries.
-- 🧼 **Simple UI**: Clean interface with easy interaction.
+- 📈 **Increment Button** – Increase item count as stock comes in.
+- 📉 **Subtract Button** – Decrease item count when items are removed or sold.
+- 🧮 **Save Count** – Record the current tally and reset for new entries.
+- 📋 **Inventory Form** – Add new items with name, quantity, price, and category.
+- ✏️ **Edit Items** – Quickly update existing inventory records.
+- 🗑️ **Delete Items** – Remove items that are no longer in stock.
+- 💾 **Persistent Storage** – Uses `localStorage` to save data between sessions.
+- 🧼 **Simple UI** – Clean interface with a background image and styled controls.
+
+---
 
 ### 🛠 How to Use
 
-1. Click **Increment** to increment the item count.
-2. Click **Subtract** to reduce the item count.
-3. Click **Save** to record the current tally and start a new one.
+1. Click **Increment** or **Subtract** to adjust the tally count.
+2. Click **Save** to record the current count (reset afterward).
+3. Use the **form below** the counter to:
+   - Add items to your inventory
+   - Edit them anytime
+   - Delete when no longer needed
 
-Perfect for small businesses, stalls, farmers, or anyone managing basic inventory manually.
+Perfect for:
+
+- Small business owners
+- Market stall managers
+- Farmers
+- Anyone tracking inventory manually
+
+---
 
 ### 📁 Project Files
 
-- `index.html` – Structure and layout
-- `index.css` – Stylesheet for design and layout
-- `index.js` – JavaScript logic (including the new subtract function)
-- `station.jpg`, `yarn.jpeg` – Decorative images used in the UI
+- `index.html` – Page structure and layout
+- `index.css` – Stylesheet for visual design
+- `index.js` – JavaScript logic (tally + inventory logic)
+- `yarn.jpeg` – Decorative images used in the UI
+
+---
 
 ### 🚀 Getting Started
 
-Just open `index.html` in your browser — no installation required.
+Simply open `index.html` in your browser — **no installation required**.
 
-To run with Vite or other tools:
+To run with Vite or another dev tool:
 
 ```bash
 npm install
 npm start
+```
